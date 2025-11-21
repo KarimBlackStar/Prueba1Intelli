@@ -1,5 +1,3 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main() {
 
@@ -10,5 +8,9 @@ public class Main {
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
         }   //Fin bucle for
+
+        if(true){   //nunca poner if(true)
+            System.out.println("Hello desde develop");
+        }
     }
 }
